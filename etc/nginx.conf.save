@@ -1,0 +1,9 @@
+user box;
+server {
+listen *:80;
+server;
+root /путь/к/файлам/сайта/;
+index index.php index.html;
+
+location / {}
+}
