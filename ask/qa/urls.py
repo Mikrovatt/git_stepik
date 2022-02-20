@@ -1,5 +1,5 @@
-from django.urls import path
+from django.conf.urls import url
 
 from . import views
 
-urlpatterns = [path('', views.test, name='test')]
+urlpatterns = [url(r'^', views.test, name='test')]
